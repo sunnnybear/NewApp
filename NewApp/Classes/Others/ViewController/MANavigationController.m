@@ -24,6 +24,7 @@
         [button setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
         [button setTitleColor:[UIColor redColor] forState:UIControlStateHighlighted];
         viewController.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:button];
+        viewController.view.backgroundColor = [UIColor whiteColor];
     }
     [super pushViewController:viewController animated:animated];
 }
